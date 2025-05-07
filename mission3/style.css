@@ -1,0 +1,13 @@
+/* Pour selectionner l'attribut data-type, le mettre entre crochets */
+li[data-type="vêtement"] {
+    color: lightblue;
+}
+
+li[data-type="électronique"] {
+    border: 1px solid grey;
+}
+
+li[data-type="jouet"] {
+    font-weight: bold;
+    text-decoration: underline;
+}

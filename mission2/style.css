@@ -1,0 +1,18 @@
+/* Mission 2 */
+
+.carre>p {
+    color: purple;
+}
+
+.carre:first-child p {
+    font-weight: bold;
+}
+
+/* ECHEC */
+span {
+    color: blue;
+}
+
+.carre p:nth-of-type(2) {
+    font-style: italic;
+}

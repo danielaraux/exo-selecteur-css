@@ -1,0 +1,16 @@
+/* Mission 1 */
+.carnivore {
+    color: red;
+}
+
+.herbivore {
+    color: green;
+}
+
+#lion {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+}
