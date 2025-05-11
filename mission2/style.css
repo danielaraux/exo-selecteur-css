@@ -1,0 +1,19 @@
+/* Mission 2 */
+
+.carre>p {
+    color: purple;
+}
+
+.carre:first-child p {
+    font-weight: bold;
+}
+
+/* ECHEC */
+span+p {
+    color: blue;
+}
+
+/* Le deuxième p de chaque .carre est en italique */
+.carre p:nth-of-type(2) {
+    font-style: italic;
+}
