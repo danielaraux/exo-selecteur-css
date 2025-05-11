@@ -9,10 +9,11 @@
 }
 
 /* ECHEC */
-span {
+span+p {
     color: blue;
 }
 
+/* Le deuxième p de chaque .carre est en italique */
 .carre p:nth-of-type(2) {
     font-style: italic;
 }

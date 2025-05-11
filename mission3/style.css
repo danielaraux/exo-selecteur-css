@@ -3,10 +3,12 @@ li[data-type="vêtement"] {
     color: lightblue;
 }
 
+/* Tous les objets électroniques ont une bordure grise. */
 li[data-type="électronique"] {
     border: 1px solid grey;
 }
 
+/* Tous les jouets sont en gras souligné. */
 li[data-type="jouet"] {
     font-weight: bold;
     text-decoration: underline;

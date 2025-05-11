@@ -1,8 +1,25 @@
+/* Redimensionnement des images  */
 img {
     height: 150px;
     width: 150px;
 }
 
+/* Mise en place de la scale */
 img:hover {
-    scale: 180px;
+    transform: scale(1.2);
+}
+
+/* Bordure verte sur les images impaires */
+img:nth-child(odd) {
+    border: 5px solid green;
+}
+
+/* Bordure orange sur les images paires */
+img:nth-child(even) {
+    border: 5px solid orange;
+}
+
+/* Bordure arrondie sur la première image */
+img:nth-child(1) {
+    border-radius: 100px;
 }
